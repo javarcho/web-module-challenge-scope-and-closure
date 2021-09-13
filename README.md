@@ -80,9 +80,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
 
+the closure is the math.random(), its what is what the function is referencing to
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+the roll will always be for dan, what could change is the number that is produced
+
+c. What is the lexical scope of `newRoll`?
+
+its the function being invoked to generate the number
 
 ### Task 3 - Stretch Goals
 
